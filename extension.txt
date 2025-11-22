@@ -1,0 +1,254 @@
+<div align="center">
+<h1><kbd>🧩 BaghChaal</kbd></h1>
+An extension for MIT App Inventor 2.<br>
+BaghChal is a disproportionate strategy game, which means that the Goats and Tigers on the board do not have the same powers during the game. The Tigers have the ability to capture goats and eliminate them from the board whereas the Goats have the power of superior numbers for trap tigers. Developed by TechHamara using Fast.<br><a href='https://t.me/techhamara91/' target='_blank'>Telegram</a> | <a href='https://github.com/TechHamara/' target='_blank'>GitHub</a><br><a href='https://buymeacoffee.com/techhamara/extras/' target='_blank'>BuyMeaCoffee</a> | <a href='https://m.youtube.com/c/TECHHAMARA?sub_confirmation=1' target='_blank'>YouTube</a><br><a href='https://github.com/TechHamara/Th_Free_Extensions' target='_blank'><small><u>Find More Extension</u></small></a><br><a href='https://github.com/TechHamara/Th_Extensions_List/blob/main/LICENSE.md#terms-and-conditions-for-the-extension' target='_blank'><small><u>Terms & Conditions</u></small></a>
+</div>
+
+## 📝 Specifications
+* **
+📦 **Package:** io.th.baghchaal
+💾 **Size:** 32.79 KB
+⚙️ **Version:** 1.0
+📱 **Minimum API Level:** 7
+📅 **Updated On:** [date=2025-11-22 timezone="Asia/Calcutta"]
+💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103?u=jewel) <small><mark>v2.8.4</mark></small>
+
+## <kbd>Event:</kbd>
+**BaghChaal** has total 1 event.
+
+### OnStatusChanged
+Event raised when game status changes.
+
+| Parameter | Type
+| - | - |
+| turn | number
+| status | text
+
+## <kbd>Methods:</kbd>
+**BaghChaal** has total 2 methods.
+
+### Initialize
+Initialize the Bagh Chaal game inside the given arrangement.
+
+| Parameter | Type
+| - | - |
+| arrangement | component
+
+### ResetGame
+Reset the game to initial state
+
+## <kbd>Setters:</kbd>
+**BaghChaal** has total 22 setter properties.
+
+### GoatsImage
+Set the goat image from app assets (filename relative to assets). Example: 'goat.png'
+
+* Input type: `text`
+
+### TigerImage
+Set the tiger image from app assets (filename relative to assets). Example: 'tiger.png'
+
+* Input type: `text`
+
+### PlayerOneColor
+Color for Player One (Tigers)
+
+* Input type: `number`
+
+### PlayerTwoColor
+Color for Player Two (Goats)
+
+* Input type: `number`
+
+### PieceScale
+Scale factor for game pieces (0.35 to 1.0)
+
+* Input type: `number`
+
+### BackgroundColor
+Background color of the game board
+
+* Input type: `number`
+
+### BoardWidthScale
+Width scale factor for the board (0.5 to 1.0)
+
+* Input type: `number`
+
+### BoardHeightScale
+Height scale factor for the board
+
+* Input type: `number`
+
+### BoardMargin
+Margin around the board in pixels
+
+* Input type: `number`
+
+### StatusTextColor
+Color for status text
+
+* Input type: `number`
+
+### StatusTextSize
+Size of status text
+
+* Input type: `number`
+
+### ComputerEnabled
+Whether computer player is enabled
+
+* Input type: `boolean`
+
+### ComputerPlayer
+Which player is computer (1=Tiger, 2=Goat)
+
+* Input type: `number`
+* Helper type: `PlayerType`
+* Helper enums: `ONE`, `TWO`
+
+### OrientationTopToBottom
+Whether board orientation is top to bottom
+
+* Input type: `boolean`
+
+### BoardDesign
+Board design type (BASIC, MOUNTAIN, or PYRAMID_17)
+
+* Input type: `text`
+* Helper type: `DesignType`
+* Helper enums: `BASIC`, `MOUNTAIN`, `PYRAMID_17`
+
+### HintColor
+Color for hint circles showing valid moves
+
+* Input type: `number`
+
+### MaxGoatsBasic
+Set the maximum number of goats for BASIC board type. Use -1 to reset to default (20).
+
+* Input type: `number`
+
+### MaxGoatsMountain
+Set the maximum number of goats for MOUNTAIN board type. Use -1 to reset to default (13).
+
+* Input type: `number`
+
+### MaxGoatsPyramid17
+Set the maximum number of goats for PYRAMID_17 board type. Use -1 to reset to default (14).
+
+* Input type: `number`
+
+### MaxTigersBasic
+Set the maximum number of tigers for BASIC board type. Use -1 to reset to default (4).
+
+* Input type: `number`
+
+### MaxTigersMountain
+Set the maximum number of tigers for MOUNTAIN board type. Use -1 to reset to default (3).
+
+* Input type: `number`
+
+### MaxTigersPyramid17
+Set the maximum number of tigers for PYRAMID_17 board type. Use -1 to reset to default (3).
+
+* Input type: `number`
+
+## <kbd>Getters:</kbd>
+**BaghChaal** has total 19 getter properties.
+
+### PlayerOneColor
+Color for Player One (Tigers)
+
+* Return type: `number`
+
+### PlayerTwoColor
+Color for Player Two (Goats)
+
+* Return type: `number`
+
+### PieceScale
+Scale factor for game pieces (0.35 to 1.0)
+
+* Return type: `number`
+
+### BackgroundColor
+Background color of the game board
+
+* Return type: `number`
+
+### BoardWidthScale
+Width scale factor for the board (0.5 to 1.0)
+
+* Return type: `number`
+
+### BoardHeightScale
+Height scale factor for the board
+
+* Return type: `number`
+
+### BoardMargin
+Margin around the board in pixels
+
+* Return type: `number`
+
+### StatusTextColor
+Color for status text
+
+* Return type: `number`
+
+### StatusTextSize
+Size of status text
+
+* Return type: `number`
+
+### ComputerEnabled
+Whether computer player is enabled
+
+* Return type: `boolean`
+
+### IsComputerPlayer
+Which player is computer (1=Tiger, 2=Goat)
+
+* Return type: `number`
+
+### IsOrientationTopToBottom
+Whether board orientation is top to bottom
+
+* Return type: `boolean`
+
+### IsBoardDesign
+Board design type (BASIC, MOUNTAIN, or PYRAMID_17)
+
+* Return type: `text`
+
+### Turn
+Current turn (1=Tiger, 2=Goat)
+
+* Return type: `number`
+
+### GoatsOnHand
+Number of goats remaining to place
+
+* Return type: `number`
+
+### GoatsDead
+Number of goats killed
+
+* Return type: `number`
+
+### GameOver
+Whether the game is over
+
+* Return type: `boolean`
+
+### StatusMessage
+Current status message
+
+* Return type: `text`
+
+### HintColor
+Color for hint circles showing valid moves
+
+* Return type: `number`
+

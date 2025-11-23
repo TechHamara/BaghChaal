@@ -12,6 +12,7 @@ BaghChal is a disproportionate strategy game, which means that the Goats and Tig
 📱 **Minimum API Level:** 7<br>
 📅 **Updated On:** [date=2025-11-22 timezone="Asia/Calcutta"]<br>
 💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103?u=jewel) <small><mark>v2.8.4</mark></small><br>
+⬇️ **Get Paid aix** 4💲 from [here](https://buymeacoffee.com/techhamara/e/481804)
 <br>
 
 ## Demo

@@ -19,6 +19,13 @@ BaghChal is a disproportionate strategy game, which means that the Goats and Tig
 
 <img width="864" height="810" alt="blocks (7)" src="https://github.com/user-attachments/assets/85ca36c9-d58d-46a8-8369-90507b1b07f8" />
 
+![baghchaal3.jpg](https://github.com/user-attachments/assets/958b382a-c76c-41ca-a11b-ffb48fd0f8b6)
+
+![baghchaal1.jpg](https://github.com/user-attachments/assets/6f35a093-796f-4d0a-bd25-99468c43dc6f)
+
+![baghchaal2.jpg](https://github.com/user-attachments/assets/fb8a6c2c-7273-4e32-afa6-122bae7170f2)
+
+
 
 ## Blocks
 
